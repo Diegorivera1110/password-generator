@@ -13,7 +13,9 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f9fbfd;
 }
 
@@ -49,6 +51,18 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
+
+
+/* added style to accomodate the criteria checking */
+.checklist {
+  display: flex;
+  flex-direction: column;
+}
+
+#quantity {
+  max-width: fit-content;
+}
+/* END added in styling */
 
 .card-body {
   min-height: 100px;
