@@ -54,10 +54,10 @@ header {
 
 
 /* added style to accomodate the criteria checking */
-.checklist {
+/* .checklist {
   display: flex;
   flex-direction: column;
-}
+} */
 
 #quantity {
   max-width: fit-content;
