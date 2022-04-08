@@ -26,22 +26,37 @@ var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"
 
 var lengthPrompt = "";
 
+var createdPassword = [];
+
+var uppercaseCriteria;
+var lowercaseCriteria;
+var numbersCriteria;
+var symmbolsCriteria;
+
 function generatePassword() {
   console.log("Button worked");
-  var lengthPrompt = window.prompt("Between 8 and 128 characters, how long would you like your password to be?");
+  var lengthPrompt = prompt("Between 8 and 128 characters, how long would you like your password to be?");
   if (lengthPrompt == "" || lengthPrompt == null) {
     alert("Click to reset this.");
     return;
-  } while (lengthPrompt <= 8 || lengthPrompt >= 128) {
-    window.alert("Quantity entered must be between 8 and 128");
-    var lengthPrompt = window.prompt("Between 8 and 128 characters, how long would you like your password to be?");
+
+  } 
+  while (lengthPrompt <= 7 || lengthPrompt >= 129) {
+    alert("Quantity entered must be between 8 and 128");
+    var lengthPrompt = prompt("Between 8 and 128 characters, how long would you like your password to be?");
   }
   
-  var uppercaseCriteria;
-  var lowercaseCriteria;
-  var numbersCriteria;
-  var symmbolsCriteria;
-};
+  // Confirm character criteria
+  var uppercaseCriteria = confirm("Would you like your password to have Uppercase letters?");
+  var lowercaseCriteria = confirm("Would you like your password to have Lowercase letters?");
+  var numbersCriteria = confirm("Would you like your password to have numbers?");
+  var symbolsCriteria = confirm("Would you like your password to have symbols?");
+ 
+  // while (uppercaseCriteria != true && lowercaseCriteria != true && numbersCriteria != true && symbolsCriteria != true) {
+  //   alert("You have to at least agree to one of the prompted conditions.");
+  // }  
+}
+
 
 // Write password to the #password input
 function writePassword() {
