@@ -23,7 +23,6 @@ function generatePassword() {
    // lengthPrompt will take in quantity user decides on 
    var lengthPrompt = ""
    
-   
    // The presented password
    var createdPassword = ""
    // END variable collection

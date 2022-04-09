@@ -53,17 +53,6 @@ header {
 }
 
 
-/* added style to accomodate the criteria checking */
-/* .checklist {
-  display: flex;
-  flex-direction: column;
-} */
-
-#quantity {
-  max-width: fit-content;
-}
-/* END added in styling */
-
 .card-body {
   min-height: 100px;
 }
