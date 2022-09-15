@@ -21,3 +21,7 @@ The three languages used for this Random Password Generator were HTML, CSS, and 
 
 ## Screenshot
 ![GIF of working site.](./assets/Example%20GIF.gif) 
+
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  To read more on the license, [The MIT License](https://opensource.org/licenses/MIT)
