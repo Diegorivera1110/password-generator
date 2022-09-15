@@ -1,5 +1,8 @@
 # password-generator
 
+## About 
+I developed this app that allows Users to generate a random password that can contain capitol letters, lowercase letters, special characters, and numbers. Users can select which of the criteria their password will contain. This application is built mainly on JavaScript with supporting HTML and CSS. 
+
 ## Live Site URL
 https://diegorivera1110.github.io/password-generator/
 
