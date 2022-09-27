@@ -9,6 +9,10 @@ https://diegorivera1110.github.io/password-generator/
 ## GitHub Repository
 https://github.com/Diegorivera1110/password-generator
 
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  To read more on the license, [The MIT License](https://opensource.org/licenses/MIT)
+
 ## Languages Used
 
 The three languages used for this Random Password Generator were HTML, CSS, and JavaScript. 
@@ -22,6 +26,3 @@ The three languages used for this Random Password Generator were HTML, CSS, and 
 ## Screenshot
 ![GIF of working site.](./assets/Example%20GIF.gif) 
 
-  ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
-  To read more on the license, [The MIT License](https://opensource.org/licenses/MIT)
